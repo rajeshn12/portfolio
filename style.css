@@ -1,0 +1,371 @@
+.container-fluid{
+    width: 1200px;
+    height: 1800px;
+    text-align: center;
+}
+
+.navbar {
+    width: 1500px;
+    height: 80px;
+    background-color: black;
+    /* border: 1px solid black; */
+}
+
+.icon {
+    width: 150px;
+    float: left;
+    height: 80px;
+    margin-left: 200px;
+    text-align: center;
+
+}
+
+.name {
+    width: 150px;
+    height: 80px;
+
+}
+
+.logo {
+    width: 120px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 1100px;
+    float: left;
+    height: 80px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li {
+    list-style: none;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+}
+
+ul li a {
+    text-decoration: none;
+    margin-left: 110px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.home {
+    width: 1500px;
+    height: 500px;
+    background-image: url(background1.jpg);
+
+}
+
+.profile-pic {
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.image1 {
+    /* border: 1px solid green; */
+    cursor: pointer;
+    padding: 10px;
+    width: 400px;
+    border-radius: 80px;
+    height: 400px;
+}
+
+.intro {
+    float: left;
+    width: 900px;
+    height: 500px;
+    /* border: 1px solid red; */
+}
+
+.content {
+    width: 700px;
+    height: 300px;
+    margin-left: 170px;
+    margin-top: 100px;
+    text-align: start;
+    /* border: 1px solid black; */
+}
+
+.web {
+    font-size: 70px;
+    font-weight: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+span {
+    color: orange;
+
+}
+
+.p1 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.hire {
+    border: 1px solid black;
+    width: 100px;
+    margin-top: 20px;
+    color: white;
+    padding: 8px;
+    background-color: black;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.hire:hover {
+    transform: scale(1.2);
+}
+
+.fa-facebook {
+    color: black;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.fa-facebook:hover {
+    color: #0165E1;
+    transform: scale(1.15);
+}
+
+.fa-square-instagram {
+    color: black;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.fa-square-instagram:hover {
+    color: #C13584;
+    transform: scale(1.15);
+}
+
+.fa-twitter {
+    color: black;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+    transform: scale(1.15);
+}
+
+.skills {
+    width: 1500px;
+    height: 350px;
+    /* border: 2px solid rgb(52, 49, 49); */
+    background-image: url(background1.jpg);
+}
+
+.row1 {
+    width: 1500px;
+    height: 300px;
+    /* border: 1px solid red; */
+}
+
+.html {
+    float: left;
+    text-align: center;
+    width: 360px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid  rgb(38, 12, 237);
+}
+
+.fa-html5 {
+    color: orange;
+    padding: 50px;
+}
+
+.css {
+    float: left;
+    width: 365px;
+    height: 200px;
+    margin-right: 10px;
+    border: 2px solid rgb(11, 244, 27);
+}
+
+.fa-css3-alt {
+    color: #264de4;
+    padding: 50px;
+}
+
+.bootstrap {
+    float: left;
+    width: 365px;
+    height: 200px;
+    margin-right: 10px;
+    border: 2px solid #C13584 ;
+}
+
+.fa-bootstrap {
+    color:#080135;
+    padding: 50px;
+}
+
+.js {
+    float: left;
+    width: 365px;
+    height: 200px;
+    border: 2px solid orange;
+}
+
+.fa-square-js {
+    color:#F0DB4F ;
+    padding: 50px;
+}
+.skill-head{
+text-align: left;
+padding-left: 50px;
+font-size: 50px;
+font-weight: bold;
+}
+.row2{
+    width: 1500px;
+    height: 720px;
+    background-image: url(background1.jpg);
+}
+.project-head{
+    text-align: left;
+    padding-left: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    }
+.project1{
+    float: left;
+    width: 450px;
+    height: 550px;
+    margin-left: 180px;
+    border: 3px solid black;
+}
+.box1{
+    width:500px ;
+    height: 300px;
+}
+.pro1-image{
+    width: 400px;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.box2{
+    width:400px ;
+    height: 250px;
+    text-align: start;
+    margin-left: 30px;
+}
+.project2{
+ float: left;
+ width: 450px;
+ height: 550px;
+ margin-left: 200px;
+ border: 3px solid black;
+
+}
+.box3{
+    width:500px ;
+    height: 300px;
+}
+.pro2-image{
+    width: 400px;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.box4{
+    width:400px ;
+    height: 250px;
+    text-align: start;
+    margin-left: 30px;
+}
+.footer {
+    width: 1500px;
+    color: white;
+    height: 250px;
+    background-color: #0f0e0e;
+    background-image: url(Footer.jpg);
+}
+
+.about {
+    width: 500px;
+    height: 190px;
+    float: left;
+    text-align: start;
+    padding-left: 35px;
+    padding-top: 20px;
+
+}
+
+.p1 {
+    font-size: 13px;
+}
+
+.fa-square-facebook {
+    padding-left: 25px;
+}
+
+.fa-instagram {
+    padding-left: 25px;
+}
+
+.fa-linkedin {
+    padding-left: 60px;
+}
+
+.contact {
+    width: 500px;
+    height: 190px;
+    float: left;
+    text-align: center;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.services {
+    width: 500px;
+    height: 190px;
+    float: left;
+    text-align: start;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.read{
+    width: 90px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+}
